@@ -1,0 +1,37 @@
+body{
+    font-style:italic ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: black;
+}
+p {
+    color:aqua;
+    background:blue;
+}
+
+
+strong{
+    background:rgb(107, 105, 109);
+    font-size: 32px;
+}
+
+.rr{
+    color:aqua;
+    background:rgb(100, 102, 3)
+}
+.cc{
+    color:rgb(222, 246, 6);
+    background:blue
+}
+.cc:hover {
+    color:rgb(221, 223, 202);
+    background:rgb(11, 11, 12)}
+.vv{
+    color:rgb(5, 43, 7);
+    background:red
+}
+.cc:active {
+    font-size: 32px;}
+
+#vvv::first-letter{
+    color:black
+}
