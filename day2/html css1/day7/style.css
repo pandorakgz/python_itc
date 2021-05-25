@@ -1,0 +1,37 @@
+.block-1{
+    border:1px solid  rgb(5, 5, 5);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    color: aliceblue;
+
+    padding: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    text-align: center;
+    /* background-color: aquamarine; */
+    background-image: url(zz.jpeg);
+    width: 97,5%;
+
+}
+.block-2{
+    border:2px solid  rgb(143, 17, 17);
+    margin-bottom: 20px;
+    background-color: blue;
+    color: beige;
+}
+.span1{
+    margin-left: 10px;
+    border:2px solid  rgb(29, 253, 9);
+    padding: 10px;
+}
+
+.span2{
+    margin-left: 10px;
+    border:2px solid  rgb(73, 91, 248);
+    padding: 10px;
+}

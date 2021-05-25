@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.0.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="form_post_add">
+        <form action="">
+            <fieldset>
+                <legend>Общий</legend>
+            <br>
+            <label for="title">Заголовок</label><br>
+            <input type="text" name='title' id='title' ><br>
+            <label for="content">Содержимое</label><br>
+            <textarea name="" id="" cols="30" rows="10">Контент</textarea><br>
+            
+            <input type="checkbox" name="visible" id="visible">
+            <label for="visible">Видимость</label><br>
+
+            <label for="visible">Выберите катигорию:
+            <select class="form-select">
+                <option value="economic">Экономика</option>
+                <option class="form-select" value="programm" selected="selected">Программирования</option>
+                <option value="nauka">Наука</option>
+                <option value="data">Data science</option>
+            
+            </select><br>
+
+            <button type="button" class="btn btn-outline-success">Success</button>
+         </fieldset>
+        </form>
+        
+    </div>
+</body>
+</html>

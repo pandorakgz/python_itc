@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Panda</title>
+</head>
+<body>
+    <div class="form_post_add">
+        <form action="">
+            <fieldset>
+                <legend>Общий</legend>
+            <br>
+            <label for="title">Заголовок</label><br>
+            <input type="text" name='title' id='title' ><br>
+            <label for="content">Содержимое</label><br>
+            <textarea name="" id="" cols="30" rows="10">Контент</textarea><br>
+            
+            <input type="checkbox" name="visible" id="visible">
+            <label for="visible">Видимость</label><br>
+
+            <label for="visible">Выберите Катигорию</label><br>
+            <select name="post_category" id="post_category">
+                <option value="economic">Экономика</option>
+                <option value="programm" selected="selected">Программирования</option>
+                <option value="nauka">Наука</option>
+                <option value="data">Data science</option>
+            
+                <optgroup label= "Новости по Кыргызстану" >
+                    <option value='osh'>Osh</option>
+                    <option value="bish">Bishkek</option>
+                </optgroup>
+
+                <optgroup label= "О биткойнах" >
+                    <option value='bit'>Биткойн</option>
+                    <option value="eth">Эфириум</option>
+                </optgroup>
+
+            </select><br><br>
+            <button type="submit">Сохранить</button>
+         </fieldset>
+        </form>
+        
+    </div>
+</body>
+</html>
