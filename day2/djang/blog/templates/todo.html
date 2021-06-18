@@ -1,0 +1,23 @@
+<ul>
+    {% for todo in todos  %}
+
+        {% if todo.completed == True %}
+
+            <li>
+                {{ todo.name }}
+                <b>✅</b>
+                <b>🤨</b>
+            </li>
+
+        {% else %}
+
+            <li>
+                {{ todo.name }}
+                <b>💔</b>
+                <b>🤔</b>
+            </li>
+
+        {% endif %}
+
+    {% endfor %}
+</ul>
